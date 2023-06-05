@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\Android\SDK\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="E:\desktop\memory card\projects\AlgorithmVisualiser\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.1_0f1f401288085b1e6a628cd155a665ba904b47f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\roitp\.android\build-cache\70489b8887d4988fa97f649d0e91591512ffdf72\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="E:\desktop\memory card\projects\AlgorithmVisualiser\app\build\intermediates\pre-dexed\debug\classes_bab036b81abf5ba2d1b2c2a739adcc56e2876b75.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android\SDK\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="E:\desktop\memory card\projects\AlgorithmVisualiser\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_2c3867d1c40574635ca22d17fafb139f9a1e08b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\roitp\.android\build-cache\37d4a36c6cc53fb9ffaa5285049b15d9266fcf46\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="E:\desktop\memory card\projects\AlgorithmVisualiser\app\build\intermediates\pre-dexed\debug\classes_75f4abaeb717481d9ea1317a8c13c0828cc0b3e6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\roitp\.android\build-cache\10d0803b9df759910511805a17dceb282946702e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="E:\desktop\memory card\projects\AlgorithmVisualiser\app\build\intermediates\pre-dexed\debug\classes_d9441b6269984a081f8dfd1f55ee9b0e6ac8b67d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\roitp\.android\build-cache\d90d6823da46c2f7fd2af64a9c302e09b35f6382\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="E:\desktop\memory card\projects\AlgorithmVisualiser\app\build\intermediates\pre-dexed\debug\classes_44ee2f3e3314e00bc6f75706728479ceaf79f06a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\roitp\.android\build-cache\9a5e0e69961f5b353e8f68580e7e3d631397814b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="E:\desktop\memory card\projects\AlgorithmVisualiser\app\build\intermediates\pre-dexed\debug\classes_5e0f5fcca32fdd220c6c44b50b273d3d93663221.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\roitp\.android\build-cache\c0259669976edc22bb38db2c0fa2e74692fce089\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="E:\desktop\memory card\projects\AlgorithmVisualiser\app\build\intermediates\pre-dexed\debug\classes_e42e99eb5191d6d84b33fd7e929b004f13a25713.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\roitp\.android\build-cache\a78d3b76e1a189231a6e2febc6ef9f7e95a82363\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="E:\desktop\memory card\projects\AlgorithmVisualiser\app\build\intermediates\pre-dexed\debug\classes_16e106d7d91af9f6fef8ef483c7aa32d527e2b5b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\roitp\.android\build-cache\80a55afbb60f4842c51885ed6034652edb3f204f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="E:\desktop\memory card\projects\AlgorithmVisualiser\app\build\intermediates\pre-dexed\debug\classes_a2e487a6432fccc96c8020a73009e53a19a85bc1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\roitp\.android\build-cache\2b8562f0e58fbfcca85f6ac71129376be7dbe4ee\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\desktop\memory card\projects\AlgorithmVisualiser\app\build\intermediates\pre-dexed\debug\classes_46a182b19bcfa98bf9dba24a89321f94ed8122f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\roitp\.android\build-cache\092d62fce679dfe9dddd3f5ee8d7de245b11a2f0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="E:\desktop\memory card\projects\AlgorithmVisualiser\app\build\intermediates\pre-dexed\debug\classes_0c5b53baaf3c5250b7d19004c1301246244d178c.jar" />
+    </item>
+
+</items>

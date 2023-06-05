@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#26596A</item>
+        <item name="colorPrimaryDark">#022835</item>
+        <item name="colorAccent">#d3fff8</item>
+
+    </style>
+    <style name="background">
+        <item name="android:background">@drawable/main</item>
+    </style>
+    <style name="list">
+        <item name="android:textColor">#d3fff8</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">5sp</item>
+    </style>
+    <style name="sublist">
+        <item name="android:textColor">#d3fff8</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginLeft">10sp</item>
+        <item name="android:padding">5sp</item>
+    </style>
+    <style name="brief_head">
+        <item name="android:textColor">#d3fff8</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">5sp</item>
+    </style>
+    <style name="brief">
+        <item name="android:textColor">#d3fff8</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">5sp</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,342 @@
+<resources>
+    <string name="app_name">Algorithm Visualiser</string>
+    <string name="get_started">Let\'s get started</string>
+    <string name="linked_list_brief">
+       \t  Linked list is a Linear collection of data elements,
+        class  nodes, The; nodes have two portions: the data and
+        a pointer&#160; to another node.&#160; This pointer as mechanism to link
+        to another node allows linked lists to grow arbitrarily long.
+        \n
+        \n
+        <b>Complexity:</b>
+        \n
+        \n
+        \t Space : 0(n) \n
+        \n
+        \t Time: \n
+        \t \t Search&#160;&#160;&#160;&#160;&#160;&#160;&#160;: worst O(n), average O(n) \n
+        \t \t Access &#160;&#160;&#160;&#160;&#160;: worst O(n), average O(n) \n
+        \t \t Deletion &#160;&#160;&#160;&#160;: worst O(1), average O(1) \n
+        \t \t Insertion &#160;&#160;&#160;: worst O(1), average O(1) \n
+        \n
+        <b>Pseudocode:</b> \n
+        \n
+        \t // a node \n
+        \t struct Node \n
+        \t   \t double data \n
+         \t   \t Node* next \n
+         \t   \n
+        \t // make a node with given value \n
+        \t make_node(value) \n
+         \t   \t Node *x \n
+          \t  \t x.data = value \n
+          \t  \t x.next = null \n
+          \n
+        \t // insert a node at specified position \n
+        \t insert(position, value) \n
+        \t    \t Node *y; \n
+        \t    \t temp = head \n
+        \t    \t for(i = 1; i <![CDATA[<]]> position - 1; i++) \n
+         \t       \t \t temp = temp.next \n
+        \t    \t y.data = value \n
+         \t   \t y.next = temp.next \n
+        \t    \t temp.next = y \n
+        \n
+        \t // delete a node at specified position \n
+        \t delete(position) \n
+         \t   \t temp = head \n
+         \t   \t for(i = 1; i <![CDATA[<]]> position - 1; i++) \n
+         \t       \t \t temp = temp.next \n
+          \t  \t del_node = temp.next \n
+          \t  \ttemp.next = del_node.next \n
+        \n
+        \n
+        \n
+        <b>Applications:</b>\n\n
+        \t \u2022 A strong primitive data type, used by languages like LISP, Scheme \n
+        \t \u2022 Implementing other complex data structures.
+     \n
+     \n
+     \n
+     \n
+     \n
+
+
+    </string>
+    <string name="queue_brief">
+  \t A Queue is an abstract data structure similar to Stacks. Unlike stacks,
+  a queue is open at both its ends. One end is always used to insert
+  data (enqueue) and the other is used to remove data (dequeue).
+  Queue follows First-In-First-Out methodology, i.e.,
+  the data item stored first will be accessed first. \n
+  \n
+
+<b>Complexity:</b> \n
+  \n
+\t Space : O(n) \n
+  \n
+\t Time: \n
+  \t \t  Search &#160;&#160;&#160;&#160;&#160;&#160;&#160;: worst O(n), average O(n) \n
+  \t \t  Access &#160;&#160;&#160;&#160;&#160;:worst O(n), average O(n) \n
+  \t \t  Deletion &#160;&#160;&#160;&#160;: worst O(1), average O(1) \n
+  \t \t  Insertion &#160;&#160;&#160;: worst O(1), average O(1) \n
+\n
+<b>Pseudocode:</b> \n
+\n
+\t // add item to the queue \n
+\t enqueue(value) \n
+ \t \t     tail = tail + 1 \n
+  \t \t   queue[tail] = value \n
+\n
+     \t //delete item from queue
+\t dequeue() \n
+   \t \t  deq_value = queue[head] \n
+    \t \t queue[head] = null \n
+    \t \t head = head + 1 \n
+    \t \t return deq_value \n
+\n
+     \n
+<b>Applications: </b> \n
+ \n
+\t  \u2022 In job queues like that of the printer queue. \n
+\t  \u2022 To implement queuing systems in server-client software and multitasking Operating Systems \n
+  \n
+  \n
+     \n
+  \n
+     \n
+ </string>
+    <string name="stack_brief">
+  \t A stack is an abstract data structure that serves as a
+  collection of elements, with two principal operations: push,
+  which adds an element to the collection, and pop, which removes
+  the most recently added element. This order of element removal
+  is called Last-In-First-Out. Additionally, a peek operation may
+  give access to the top without modifying the stack. \n
+     \n
+
+<b>Complexity:</b> \n
+     \n
+\t Space : O(n)\n
+     \n
+\t Time: \n
+  \t \t Search &#160;&#160;&#160;&#160;&#160;&#160;&#160;: worst O(n), average O(n) \n
+  \t \t Access &#160;&#160;&#160;&#160;&#160;&#160;: worst O(n), average O(n) \n
+  \t \t Deletion &#160;&#160;&#160;&#160;: worst O(1), average O(1) \n
+  \t \t Insertion &#160;&#160;&#160;: worst O(1), average O(1) \n
+\n
+<b>Pseudocode: </b> \n
+\n
+\t // push a value to top of stack \n
+\t push(value) \n
+\t \t     top = top + 1 \n
+ \t \t   stack[top] = value \n
+\n
+\t//  pop the value at top of stack \n
+\t pop() \n
+\t \t    pop_value = stack[top] \n
+\t \t    stack[top] = null \n
+\t \t    top = top-1 \n
+\t \t    return pop_value \n
+\n
+\t// view the value at top of stack \n
+\t peek() \n
+ \t \t   return stack[top] \n
+\n \n
+<b>Applications:</b> \n
+     \n
+
+\t \u2022 Implementing undo\redo operation in word processors. \n
+\t \u2022 Expression evaluation and syntax parsing, many virtual machines like JVM are stack oriented. \n
+\n\n\n\n
+ </string>
+    <string name="insetion_sort_brief">
+        \t Insertion sort is a simple sorting algorithm that builds the final sorted list one item at a time.
+        The idea is that the array starts off in the first iteration as if it has only one element in it.
+        The numbers that come after are then inserted into the "array" at the correct position.
+        This is continued until all values in the entire array have been properly "inserted". \n \n
+
+ <b>Complexity:</b> \n \n
+ \t Space &#160;&#160;&#160;&#160; : O(n) total, O(1) auxiliary \n \n
+\t Time &#160;&#160;&#160;&#160;&#160;&#160; : worst O(n^2), best O(n), average O(n^2) \n
+\n
+<b>Pseudocode:</b> \n \n
+\t insertionSort(array[], size) \n
+\t\t    int curr \n
+\t\t    int i,j \n
+\t\t    for(i = 0; i <![CDATA[<]]> size; i++) \n
+\t\t\t        curr = arr[i] \n
+\t\t\t\t       for(j = i; j > 0 <![CDATA[&&]]> array[j-1] > curr; j=j-1) \n
+\t\t\t\t\t           array[j] = array[j-1] \n
+\t\t\t\t\t        array[j]=curr; \n \n \n \n
+
+
+    </string>
+    <string name="selection_sort_brief">
+        \t The selection sort algorithm works by selecting the smallest
+        value in the unsorted portion of the array then swapping
+        it with the first value of the unsorted portion of the array. \n\n
+
+<b>Complexity:</b> \n \n
+
+\t Space  &#160;&#160;&#160;&#160;: \t O(n) total, O(1) auxiliary \n
+\t Time &#160;&#160;&#160;&#160;&#160;&#160;: \t worst O(n^2), best O(n^2),\n\t\t\t\t\t\t\t\t average O(n^2) \n \n
+
+<b>Pseudocode:</b> \n\n
+\t selectionSort(array[], int size) \n
+\t\t    int minIdx \n
+\t\t    int tmp \n
+\t\t    for(int i = 0; i <![CDATA[<]]> size-1; i++) \n
+\t\t\t        minIdx = i \n
+\t\t\t        for(int j = i+1; j <![CDATA[<]]> size; j++) \n
+\t\t\t\t            if(arr[j] <![CDATA[<]]> arr[minIdx]) \n
+\t\t\t\t\t                minIdx=j \n
+\t\t\t\t\t        swap(array[i], array[minIdx]) \n\n\n\n
+
+
+    </string>
+    <string name="bubble_sort_brief">
+        \t Bubble Sort is one of the simplest sorts.
+        The idea behind a bubble sort is to start at the beginning of the array and swap adjacent elements that are not in order.
+        Repeat this n-1 times where n is the size of the array and the array will be sorted. \n\n\n
+
+<b>Complexity:</b> \n\n
+\tSpace &#160;&#160;&#160;&#160;:  \t O(1) auxiliary \n
+\tTime &#160;&#160;&#160;&#160;&#160;&#160;: \t worst O(n^2), best O(n),\n\t\t\t\t\t\t\t\t average O(n^2) \n\n
+
+<b>Pseudocode:</b> \n\n
+\t void bubble(array[], int size) \n
+ \t\t   int i, j \n
+ \t\t   int tmp \n
+ \t\t   for(i = 0; i <![CDATA[<]]>size - 1; i++) \n
+  \t\t\t      for(j = 1; j <![CDATA[<]]> size - i; j++) \n
+  \t\t\t\t          if(array[j-1] > array[j]) \n
+   \t\t\t\t\t             swap(arr[j-1], arr[j]) \n\n\n\n
+
+    </string>
+    <string name="binary_tree_brief">
+        \t A Binary Search Tree (BST) is a tree in which all the nodes follow the below mentioned properties: \n\n
+        \t\t  \u2022 The left sub-tree of a node has a key less than or equal to its parent node\'s key. \n\n
+        \t\t \u2022 The right sub-tree of a node has a key greater than to its parent node\'s key. \n\n\n
+        <b>Complexity:</b>\n\n
+
+\t Space : worst O(n), average O(n)  \n\n
+\t Time: \n\n
+  \t\t  Search &#160;&#160;&#160;&#160;&#160;&#160; : worst O(n), average O(log n) \n
+  \t\t Deletion &#160;&#160;&#160;&#160;&#160;:  worst O(n), average O(log n)  \n
+  \t\t Insertion&#160;&#160;&#160;&#160;&#160;: worst O(n), average O(log n) \n\n
+
+<b>Pseudocode:</b>\n\n
+
+\t // a node \n
+\t struct Node \n
+\t\t        double val \n
+\t\t    Node* right \n
+\t\t        Node* left \n\n
+
+\t// inserting an element\n
+\t bst_insert(root, int value)\n
+\t\t    if(root == null) \n
+\t\t\t        root.val = value \n
+\t\t\t        root.left = null \n
+\t\t\t        root.right = null \n
+\t\t    if(value <![CDATA[<]]> root.val) \n
+\t\t\t        root.left = insert(root.left, value) \n
+\t\t    else \n
+\t\t\t        root.right = insert(root.right, value) \n
+\n
+
+<b>Applications:</b>\n\n
+\t \u2022 Creating a binary search tree from a list of elements and sorts it. \n
+\t \u2022 Structuring data as a binary search tree allows faster searching. \n\n\n\n
+
+
+
+
+    </string>
+    <string name="binary_search">
+    \t Binary Search is a search algorithm that finds the position of a target value within a sorted array.
+        Binary search compares the target value to the middle element of the array: \n
+     \t\t   \u2022  if they are unequal, the half in which the target cannot lie is eliminated and the search continues on the remaining half until it is successful. \n
+     \t\t   \u2022   If the search ends with the remaining half being empty, the target is not in the array. \n\n
+    <b>Complexity:</b>\n\n
+\tSpace : worst O(1) \n\n
+\tTime: worst O(log n), best O(1), average O(log n)\n\n
+
+<b>Pseudocode:</b>\n\n
+\t binarySearch(root, int key)\n
+\t\t if(root == null)\n
+\t\t\t“does not exist” \n
+\t\t elseif(key == root.val) \n
+\t\t\t    “Found” \n
+\t\t elseif(key <![CDATA[<]]> root.val) \n
+\t\t\t    return binarySearch(root.left, key) \n
+\t\t else \n
+\t\t\t    return binarySearch(root.right, key) \n\n
+
+        <b>Applications:</b>\n\n
+        \t \u2022 Debugging a somewhat linear piece of code. \n
+        \t \u2022 Cherry picking a bad code change from a release candidate. \n
+        \t \u2022 figuring out resource requirements for a large system. \n \n\n\n
+
+    </string>
+    <string name="DFS">
+        \t Depth-first search is an algorithm for traversing or searching
+        tree or graph data structures. One starts at the root (selecting
+        some arbitrary node as the root in the case of a graph)
+        and explores as far as possible along each branch before backtracking. \n\n
+
+Complexity: \n\n
+\t Space : worst O(|V|) \n\n
+\t Time : worst O(|V|+|E|) \n\n
+
+Pseudocode: \n\n
+
+\t depthFirstSearch(Graph, start) \n
+\t\t    path = {start} \n
+\t\t    traverse(start); \n\n
+
+\t traverse(vertex) \n
+\t\t    for each w adjacent to vertex and not yet in path \n
+\t\t\t        Path = path + {w} \n
+\t\t\t        traverse(w) \n\n
+
+Applications: \n\n
+\t  \u2022 Finding connected components \n\n
+\t  \u2022 Solving puzzles with only one solution, such as mazes  and also generating mazes \n\n\n\n\n\n
+
+    </string>
+    <string name="BFS">
+        \t Breadth-first search is an algorithm for traversing or
+        searching tree or graph data structures. It starts at
+        the tree root and explores the neighbor nodes first,
+        before moving to the next level neighbors. \n\n
+
+Complexity:\n\n
+\t Space : worst O(|V|) \n\n
+\t Time : worst O(|V|+|E|) \n\n
+
+Pseudocode:\n\n
+
+\t breadthFirstSearch(Graph, start)\n
+\t\t path = {start} \n
+\t\t Q = null \t\t\t\t\t        // an empty queue \n
+\t\t enqueue(Q, start) \n
+\t\t while(Q != null) \n
+ \t\t\t   vertex = dequeue(Q) \n
+ \t\t\t   foreach neighbor w to vertex \n
+ \t\t\t\t   if( w is not in Q and w is not in path) \n
+  \t\t\t\t\t      Enqueue (Q, w) \n
+  \t\t\t\t\t      Path = path + {w} \n\n
+
+Applications: \n\n
+\t\u2022 Finding the shortest path between two nodes \n\n
+\t\u2022 In Peer to Peer Networks like BitTorrent, Breadth First Search is used to find all neighbor nodes. \n\n\n\n
+
+
+
+    </string>
+
+
+
+</resources>
